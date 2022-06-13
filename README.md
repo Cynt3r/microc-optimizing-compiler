@@ -1,4 +1,4 @@
-# microC optimizing compiler [![pipeline status](https://gitlab.fit.cvut.cz/kralva10/microc-optimizing-compiler/badges/main/pipeline.svg)](https://gitlab.fit.cvut.cz/kralva10/microc-optimizing-compiler/commits/main)
+# microC optimizing compiler [![Build Actions Status](https://github.com/Cynt3r/microc-optimizing-compiler/workflows/microc-optimizing-compiler/badge.svg)](https://github.com/Cynt3r/microc-optimizing-compiler/actions)
 Ahead-of-time compiler for microC language that is used in the program analysis course (NI-APR).
 Compiler serves as a demonstration of usage of various static analyses covered in the first half of the NI-APR course.
 MicroC language is compiled into Linux native x86-64 assembly.
