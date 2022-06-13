@@ -43,4 +43,4 @@ jobs:
     - name: unit_test
       run: cd microc-compiler && sbt clean test
     - name: blackbox_test
-      run: cd test && sudo ./test.sh
+      run: cd test && sudo chmod +x ./test.sh && ./test.sh
