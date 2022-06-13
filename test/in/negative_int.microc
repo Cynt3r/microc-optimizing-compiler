@@ -1,0 +1,10 @@
+main() {
+  var a,b,c;
+  a = -42;
+  b = alloc -42;
+  c = &a;
+  output a;
+  output *b;
+  output *c;
+  return 0;
+}

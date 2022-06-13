@@ -1,0 +1,15 @@
+main() {
+  var x, y, z, temp;
+  x = {a:1, b:2};
+  y = {c: 1, d: &x};
+  output (*(y.d)).a;
+  output (*(y.d)).b;
+  x.a = 8;
+  x.b = 10;
+  output (*(y.d)).a;
+  output (*(y.d)).b;
+  temp = y.d;
+  z = &temp;
+  output (*(*z)).a;
+  return 0;
+}

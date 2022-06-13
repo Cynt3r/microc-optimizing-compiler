@@ -1,0 +1,12 @@
+foo() {
+  return 0;
+}
+
+main() {
+  var x, y, z;
+  x = foo();
+  y = x;
+  z = y;
+  output 42;
+  return 0;
+}

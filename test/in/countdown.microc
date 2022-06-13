@@ -1,0 +1,10 @@
+main() {
+  var a;
+  a = 3;
+  while (a) {
+    output a;
+    a = a - 1;
+  }
+  output a;
+  return 0;
+}

@@ -1,0 +1,27 @@
+div(l1, r1) {
+	return { num: ((l1.num) * (r1.denom)), denom: ((l1.denom) * (r1.num)) };
+}
+
+mul(l2, r2) {
+	return { num: ((l2.num) * (r2.num)), denom: ((l2.denom) * (r2.denom)) };
+}
+
+calc(f, l, r) {
+	return f(l, r);
+}
+
+main() {
+	var num1, num2, res;
+	num1 = { num: 1, denom: 2 };
+	num2 = { num: 4, denom: 2 };
+
+	res = calc(mul, num1, num2);
+	output res.num;
+	output res.denom;
+
+	res = calc(div, num1, num2);
+	output res.num;
+	output res.denom;
+
+	return 0;
+}

@@ -1,0 +1,16 @@
+fib(n) {
+  var x;
+  if (n > 1) {
+    x = fib(n - 1) + fib(n - 2);
+  } else {
+    x = n;
+  }
+  return x;
+}
+
+main() {
+  var res;
+  res = fib(17);
+  output res;
+  return 0;
+}

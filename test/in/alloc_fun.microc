@@ -1,0 +1,10 @@
+inc(in) { return in + 1; }
+
+main() {
+  var x, y;
+  x = alloc inc;
+  output (*x)(41);
+  y = &x;
+  output (**y)(41);
+  return 0;
+}

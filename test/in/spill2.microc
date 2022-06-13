@@ -1,0 +1,15 @@
+inc(in) {
+  output *in;
+  *in = *in + 1;
+  output *in;
+  return 0;
+}
+
+main() {
+  var x;
+  x = 5;
+  output x;
+  output inc(&x);
+  output x;
+  return 0;
+}

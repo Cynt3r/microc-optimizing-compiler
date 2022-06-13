@@ -1,0 +1,14 @@
+main() {
+  var i, j;
+  i = 3;
+  while (i > 0) {
+    j = 3;
+    i = i - 1;
+    while (j > 0) {
+      j = j - 1;
+      output i * j;
+    }
+  }
+  output 42;
+  return 0;
+}

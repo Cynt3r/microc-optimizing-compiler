@@ -1,0 +1,11 @@
+tru() { return 1; }
+
+main() {
+  if (tru()) {
+    while (0) {
+      output 42;
+    }
+    output 42;
+  }
+  return 0;
+}

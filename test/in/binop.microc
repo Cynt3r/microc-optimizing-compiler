@@ -1,0 +1,9 @@
+main() {
+  var x, y, z, a;
+  a = (15 + 6) * 2;
+  x = 3;
+  y = x;
+  z = y;
+  output a;
+  return a;
+}

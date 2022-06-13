@@ -1,0 +1,17 @@
+lhs() {
+  return 64;
+}
+
+rhs() {
+  return 8;
+}
+
+main() {
+  output lhs() + rhs();
+  output lhs() - rhs();
+  output lhs() * rhs();
+  output lhs() / rhs();
+  output lhs() == rhs();
+  output lhs() > rhs();
+  return 0;
+}

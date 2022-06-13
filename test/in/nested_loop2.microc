@@ -1,0 +1,15 @@
+main() {
+  var i, j;
+  j = 5;
+  while (j) {
+    i = 1;
+    while (i) {
+      output i;
+      i = 0;
+    }
+
+    j = j * i;
+  }
+  output 42;
+  return 0;
+}

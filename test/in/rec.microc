@@ -1,0 +1,14 @@
+main() {
+  var x, y;
+  x = {a: 5, b: {c: 8, d: 9}};
+  x.a = 42;
+  y = x.b;
+  y.c = 1;
+  y.d = 2;
+  output x.a;
+  output x.b.c;
+  output x.b.d;
+  output y.c;
+  output y.d;
+  return 0;
+}

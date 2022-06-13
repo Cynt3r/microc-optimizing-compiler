@@ -1,0 +1,13 @@
+tru() { return 1; }
+
+main() {
+  var x;
+  if (tru()) {
+    x = 1;
+    while (x) {
+      output 42;
+      x = 0;
+    }
+  }
+  return 0;
+}

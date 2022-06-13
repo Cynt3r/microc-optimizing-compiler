@@ -1,0 +1,10 @@
+main() {
+  var a,b,c;
+  a = 2147483647;
+  output a;
+  a = a + 1;
+  output a;
+  a = a + 1;
+  output a;
+  return 0;
+}

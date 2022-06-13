@@ -1,0 +1,21 @@
+foo(left, right) {
+  var lSum, rSum, res;
+  lSum = left.a + left.b;
+  rSum = right.a + right.b;
+  if (lSum > rSum) {
+    res = left;
+  } else {
+    res = right;
+  }
+  return res;
+}
+
+main() {
+  var x, y;
+  x = {a: 1, b: 2};
+  y = {a: 1, b: 3};
+  x = foo(x, y);
+  output x.a;
+  output x.b;
+  return 0;
+}

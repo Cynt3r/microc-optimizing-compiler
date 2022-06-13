@@ -1,0 +1,19 @@
+const() {
+  return 5;
+}
+
+main() {
+  var x, y, z;
+  x = 60 * 60 * 24;
+  y = const();
+  if (y > 0) {
+    x = x / 60;
+  }
+  if (x > 0) {
+    z = x * y;
+  } else {
+    z = 0;
+  }
+  output z;
+  return 0;
+}

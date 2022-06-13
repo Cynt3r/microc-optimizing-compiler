@@ -1,0 +1,19 @@
+foo(in) {
+	var x, y;
+	if (in) {
+		x = 4;
+	} else {
+		x = 10;
+	}
+	y = x;
+	while (x) {
+		output x;
+		x = x - 1;
+	}
+	return y;
+}
+
+main() {
+  output foo(5);
+  return 0;
+}

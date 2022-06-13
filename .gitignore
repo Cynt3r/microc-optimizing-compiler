@@ -1,0 +1,45 @@
+# sandbox files
+Main.scala
+
+# bloop and metals
+.bloop
+.bsp
+.metals
+
+# scala 3
+.tasty
+
+# vs code
+.vscode
+
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/*
+!project/build.properties
+!project/plugins.sbt
+META-INF/
+target/
+build/
+null/
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+#general
+*.class
+.attach_pid*
+.out

@@ -1,0 +1,18 @@
+const() {
+  return 5;
+}
+
+main() {
+  var x;
+  x = const();
+  output x;
+  if (x > 0) {
+    output x;
+    x = x + 10;
+    output x;
+  }
+  output x;
+  x = x + 10;
+  output x;
+  return 0;
+}

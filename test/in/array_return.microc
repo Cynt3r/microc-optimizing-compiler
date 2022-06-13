@@ -1,0 +1,13 @@
+boo(q, w) {
+  return (q[0]) * (w[1]);
+}
+
+foo() {
+  return [5, 10];
+}
+main() {
+  var x;
+  x = boo(foo(), foo());
+  output x;
+  return 0;
+}

@@ -1,0 +1,15 @@
+main() {
+  var x, y;
+  x = 5;
+  if (x > 0) {
+    if (x > 5) {
+      y = 50;
+    } else {
+      y = 10;
+    }
+  } else {
+    y = -10;
+  }
+  output y;
+  return 0;
+}

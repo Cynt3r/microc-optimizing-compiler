@@ -1,0 +1,15 @@
+main() {
+  var x, y;
+  x = [1, 2, 3];
+  y = x;
+  x[0] = x[0] + 10;
+  x[1] = x[1] + 10;
+  x[2] = x[2] + 10;
+  output x[0];
+  output x[1];
+  output x[2];
+  output y[0];
+  output y[1];
+  output y[2];
+  return 0;
+}
